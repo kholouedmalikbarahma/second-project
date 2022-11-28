@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>company</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="imges/logo-white.png.webp" alt=""> 
+            </a>
+              <button class="navbar-toggler" type="button"
+               data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                 aria-label="Toggle navigation"> <!--هان زر مخفي بعد ما تصغر الشاشة رح يظهر وقمنا بربطه-->
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">pages</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    portfolio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">elemnts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">feathers</a>
+                  </li>
+                </ul>
+             <!--   <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>    علشان اعمل بحث -->
+
+               
+              </div>
+              <div class="v-sep">
+                <a href="#" class="nav-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+           
+            </div>
+            <div class="v-sep">
+                <nav class="nav"><!--حطيت ناف وفيها كلاساتnav ,nav-link بيعطي ستايل لون اا ابيض-->
+                <a href="#" class="nav-link  px-2" ><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="nav-link  px-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="nav-link  px-2"><i class="fa-solid fa-globe"></i></a>
+                </nav>
+            </div>
+            <div class="v-sep" >
+                <a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            </div>
+          </nav>
+
+    </header>
+    <section class="hero">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+            <div class="carousel-indicators"> <!--علشان احط شرطات سلايدات-->
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imges/WhatsApp Image 2022-11-21 at 9.15.27 AM.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex">
+                    <p class="text-uppercase fs-4 mb-4">WE WORK HARD, WE PLAY HARD</p>
+                  <h5 class="h1 mb-5">we are delivering<br>beautiful products</h5>
+                  <p><a href="#" class="btn btn-outline-light px-4 text-uppercase">explore work</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imges/WhatsApp Image 2022-11-21 at 9.15.27 AM (1).jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex">
+                    <p class="text-uppercase fs-4 mb-4">WE WORK HARD, WE PLAY HARD</p>
+                    <h5 class="h1 mb-5">we are delivering<br>beautiful products</h5>
+                    <p><a href="#" class="btn btn-outline-light px-4 text-uppercase">explore work</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imges/homepage-option17-slider-01-600x386.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex">
+                    <p class="text-uppercase fs-4 mb-4">WE WORK HARD, WE PLAY HARD</p>
+                    <h5 class="h1 mb-5">we are delivering<br>beautiful products</h5>
+                    <p><a href="#" class="btn btn-outline-light px-4 text-uppercase">explore work</a></p>
+                </div>
+              </div>
+            </div>
+         <!---   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>   هدول لاسهم جنب صفحات لتلقليب-->
+          </div>
+    </section>
+
+    <section id="offer"    >
+     <div class="container">
+      <div class="row">
+        <div class="offer-img col-6">
+
+        </div>
+              <div class="col-6  pp   ">
+                
+                  <h2 class="mt-0">Easy way to build perfect websites</h2>
+                  <p class="par">Beautifully handcrafted <br> templates for your website</p>
+                  <p class="cc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
+                 <div class="d-flex">
+                  <div class="col  ">
+                    <a href="#"><i class="fa-brands fa-staylinked "></i></a>
+                    <h6>Modern Framework</h6>
+                    <p>Lorem Ipsum is simply text the <br> printing and typesetting <br> standard industry.</p>
+                  </div>
+                  <div class="col ">
+                    <a href="#"><i class="fa-brands fa-staylinked "></i></a>
+                    <h6>Modern Framework</h6>
+                    <p>Lorem Ipsum is simply text the <br> printing and typesetting <br> standard industry.</p>
+                  </div>
+                 </div>
+              </div>
+          
+           
+      </div>
+     
+     </div>
+       
+      
+    </section>
+    <section class="page   container">
+      <div class="hed">
+      <h3  class="mb-4">Beautiful and easy to understand UI, <br> professional animations and drag & drop</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a  type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+</div>
+<div class="row  ">
+  <div class="col-3  c ">
+    <div class="d p-5">
+    <a href="#" class="link"><i class="fa-brands fa-staylinked mb-5"></i></a>
+    <h4>Pixel Perfect Design</h4>
+    <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy</p>
+</div>
+  </div>
+  <div class="col-3   c">
+    <div class="d  p-5 ">
+    <a href="#" class="link"><i class="fa-brands fa-staylinked mb-5 "></i></a>
+    <h4>Full Documentation</h4>
+    <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy</p>
+    </div>
+  </div>
+  <div class="col-3  c ">
+    <div class="d p-5">
+    <a href="#" class="link"><i class="fa-brands fa-staylinked mb-5"></i></a>
+    <h4>Reasonable Pricing</h4>
+    <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy</p>
+    </div>
+  </div>
+  <div class="col-3    c ">
+    <div class="d p-5">
+    <a href="#" class="link "><i class="fa-brands fa-staylinked mb-5"></i></a>
+    <h4>User-friendly Admin</h4>
+    <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy</p>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <section class="   hero   ">
+      
+        <div class="row g-0" >
+          <div class="col-3  co  ">
+            <div class="imag">
+              <img src="imges/homepage-option17-image-01.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-3 bg-dark  ">
+            <div class="he p-5">
+            <h5 >Build perfect websites</h5>
+            <h3 class="mb-3">Unlimited power <br> and customization <br> possibilities</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
+           
+            <a href="#" class="text-uppercase p-1 "><i class="fa-solid fa-circle-play"></i> read now</a>
+           
+          
+             
+            </div>
+          </div>
+          <div class="col-3  co ">
+            <div class="imag">
+              <img src="imges/homepage-option17-image-02.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-3 bg-dark  ">
+            <div class="he p-5">
+            <h5 >Unique digital experiences</h5>
+            <h3 class="mb-3">Pixel perfect design <br> and clear code <br> delivered to you</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
+           
+            <a href="#" class="text-uppercase p-1 "><i class="fa-solid fa-circle-play"></i> read now</a>
+           
+          
+             
+            </div>
+          </div>
+        </div>
+
+     
+    </section>
+    <section class="container-fluid photo">
+  <nav class="nav-bar ">
+    <a href="#" class="  active text-uppercase">all</a>
+    <a href="#" class=" a text-uppercase" >web</a>
+    <a href="#" class=" a text-uppercase" >photography</a>
+    <a href="#"  class="a text-uppercase">dranding</a>
+    <a href="#" class=" a text-uppercase" >desing</a>
+    <a href="#" class=" a text-uppercase">advertising</a>
+  </nav>
+  <div class="row">
+    <div class="col-3 item">
+      <div class="imag-photo">
+        <img src="imges/portfolio-item19-350x284.jpg.webp">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3 item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item23-1-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p class="p">web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3  item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item24-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3 item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item25-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3 item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item26-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3 item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item78-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3 item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item77-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    <div class="col-3 item">
+      <div class="imag-photo">
+       <img src="imges/portfolio-item80-350x284.jpg.webp" alt="">
+      </div>
+      <div class="p-photo">
+        <h4 class="text-uppercase">naked soap</h4>
+        <p>web and photography</p>
+      </div>
+      
+    </div>
+    
+
+  </div>
+ 
+
+    </section>
+    <section class="index  container">
+      <div class="row">
+        <div class="col-6  index-col ">
+          <h3>Beautifully handcrafted <br>templates for your website</h3>
+          <div class="d-flex  index-link">
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Beautiful and easy to understand UI, professional animations</a>
+          <hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i> Theme advantages are pixel perfect design & clear code delivereds</a>
+          <hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Present your services with flexible, convenient and multipurpose</a>
+          <hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Find more creative ideas for your projects</a>
+          <hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i> Unlimited power and customization possibilities</a>
+</div>
+<div class="btt">
+<i class="fa-solid fa-circle-play"></i> all advantegs
+</div>
+        </div>
+        <div class="col-6 index-imag">
+          <img src="imges/explore-work-02.png.webp">
+        </div>
+      </div>
+
+    </section>
+    <section class="about ">
+      <div class="row g-0">
+        <div class="col-6 about-col bg-light   col-p ">
+          <h2>We are delivering <br> beautiful digital <br>products for you</h2>
+          <div class="about-fle  d-flex   pt-5">
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-tv"></i> <span>Powerful WebsiteBuilder</span>
+            <p>Lorem Ipsum is simply<br> dummy text of the printing<br> and typesetting industry.<br> Lorem Ipsum has been the<br> industry’s standard<br> dummy text ever since</p>
+            
+          </div>
+          <div class="col-3">
+            <i class="fa-brands fa-readme"></i> <span>Different Layout Type</span>
+            <p>Lorem Ipsum is simply<br> dummy text of the printing <br>and typesetting industry.<br> Lorem Ipsum has been the<br> industry’s standard<br> dummy text ever since</p>
+
+          </div>
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-address-card"></i> <span>True Responsiveness</span>
+            <p>Lorem Ipsum is simply<br> dummy text of the printing<br> and typesetting industry.<br> Lorem Ipsum has been the<br> industry’s standard <br>dummy text ever since</p>
+
+          </div>
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-camera"></i> <span>Elegant / Unique design</span>
+            <p>Lorem Ipsum is simply<br> dummy text of the printing<br> and typesetting industry.<br> Lorem Ipsum has been the<br> industry’s standard dummy text ever since</p>
+
+          </div>
+          </div>
+
+        </div>
+        <div class="col-6 about-col">
+          <div class="about-image">
+            <img src="imges/services-classic-07-min.jpg">
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+    <section class="servises container">
+      <div class="head-sev ">
+        <h6 >WHAT WE DO</h6>
+        <h2>OUR SERVICES</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="sev-imag">
+        
+            <img src="imges/blog-img1-350x253.jpg.webp" alt="">
+           
+       
+              <p>Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry</p>
+            
+            
+          </div>
+          <div class="row-hed">
+            <h5>Design and Development</h5>
+          <p>600+ We created web design</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="sev-imag">
+            <img src="imges/blog-img2-350x253.jpg.webp" alt="">
+            <p>Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry</p>
+          </div>
+          <div class="row-hed">
+            <h5>Social Media Marketing</h5>
+          <p>475+ We completed marketing</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="sev-imag">
+            <img src="imges/image-4-350x253.jpg.webp" alt="">
+            <p>Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry</p>
+          </div>
+          <div class="row-hed">
+            <h5>Mobile App Development</h5>
+          <p>475+ We created mobile app</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="index       index-xx">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 index-imag">
+          <img src="imges/homepage-option15-image-3-min.png.webp">
+        </div>
+        <div class="col-6  indexx-col ">
+          <h3>Unique, truly<br> responsive and<br> functional websites</h3>
+          <p> Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum has been the industry’s standard dummy text ever<br> since. Lorem Ipsum has been the industry’s standard dummy text</p>
+          <div class="d-flex  index-linkx">
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Beautiful and easy to understand UI, professional animations</a>
+<hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Beautiful and easy to understand UI, professional animations</a>
+          <hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Beautiful and easy to understand UI, professional animations</a>
+          <hr>
+          <a href="#"><i class="fa-sharp fa-solid fa-check"></i>  Beautiful and easy to understand UI, professional animations</a>
+          
+</div>
+<div class="btt">
+<i class="fa-solid fa-circle-play"></i> get to know us
+</div>
+        </div>
+        
+      </div>
+</div>
+    </section>
+    <section class="wide container">
+      <div class="row">
+        <div class="col-6">
+          <img src="imges/image-8.jpg.webp" alt="">
+        </div>
+        <div class="col-6">
+          <div class="wide-hed">
+            <h4>Wide range of web development services</h4>
+          <h2>Responsive, convenient and<br> multipurpose theme</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is printing and typesetting simply dummy text</p>
+          </div>
+          <div class="btt">
+            <i class="fa-solid fa-circle-play"></i> about company
+            </div>
+        </div>
+        <hr>
+      </div>
+
+    </section>
+    <section class=" icone container">
+      <div class="row">
+        <div class="col-4">
+          <i class="fa-sharp fa-solid fa-tv"></i><span>Modern Framework</span>
+          <p>Lorem Ipsum is simply text the<br> printing and typesetting <br>standard industry.</p>
+        </div>
+        <div class="col-4">
+          <i class="fa-sharp fa-solid fa-book"></i><span>Web Interactive</span>
+          <p>Lorem Ipsum is simply text the<br> printing and typesetting <br>standard industry.</p>
+        </div>
+        <div class="col-4">
+          <i class="fa-sharp fa-solid fa-gift"></i><span>Graphic Design</span>
+          <p>Lorem Ipsum is simply text the<br> printing and typesetting<br> standard industry.</p>
+        </div>
+      </div>
+    </section>
+    <section class="desing ">
+      <div class="row g-0 ">
+        <div class="col-6   col-des">
+          <div class="wide-hed">
+          <h4>We create premium designs and technology</h4>
+          <h2>we design brand,<br> digital experience <br>that engage the<br> right customers.</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the <br>industry’s standard dummy text ever since. Lorem Ipsum<br> has been the industry. Lorem Ipsum is simply dummy<br> text of the printing and industry. Lorem Ipsum has been<br> the industry’s standard dummy text ever since.<br> Lorem Ipsum has been the industry.</p>
+</div>
+          <div class="btt">
+            <i class="fa-solid fa-circle-play"></i> <span class="text-uppercase">all advantegs</span>
+            </div>
+
+        </div>
+        <div class="col-6">
+          <img src="imges/parallax-bg11 (1).jpg" alt="">
+
+        </div>
+      </div>
+    </section>
+    <section class="container clint">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa-sharp fa-solid fa-display"></i><span>350</span>
+          <p class="text-uppercase">happy clients</p>
+        </div>
+        <div class="col-3">
+          <i class="fa-sharp fa-solid fa-camera"></i> <span>780</span>
+          <p class="text-uppercase">PHOTO CAPTURE</p>
+        </div>
+        <div class="col-3">
+          <i class="fa-sharp fa-solid fa-tv"></i>  <span>850</span>
+          <p class="text-uppercase">WORK COMPLETED</p>
+        </div>
+        <div class="col-3">
+          <i class="fa-sharp fa-solid fa-comments"></i> <span>650</span>
+          <p class="text-uppercase">TELEPHONIC TALK</p>
+        </div>
+      </div>
+    </section>
+    <section class="proto">
+      <div class="overlaye">
+      <div class="proto-hed "> 
+        <i class="fa-solid fa-circle-play icn"></i>
+        <h2>Beautiful and easy to use UI, professional animations and drag & drop feature</h2>
+        <p>With years of experience in the website design and development industry ThemeZaa pride ourselves on creating unique, creative and quality designs that are developed upon the latest modern coding and developing techniques, which are then built using the most up to date, structured coding framework so that your development team can take it to the next level with ease</p>
+        <div class="btt">
+          <i class="fa-solid fa-circle-play"></i> <span class="text-uppercase">about company</span>
+          </div>
+      </div>
+</div>
+    </section>
+    <section class="container logo">
+      <div class="row">
+        <div class="col-3">
+          <img src="imges/logo-4.png.webp" alt="">
+        </div>
+        <div class="col-3">
+          <img src="imges/logo-5.png.webp" alt="">
+        </div>
+        <div class="col-3">
+          <img src="imges/logo-6.png.webp" alt="">
+        </div>
+        <div class="col-3">
+          <img src="imges/logo-7.png.webp" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="slidee bg-light">
+      <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <div class="container slid">
+            <h5 >WHAT PEOPLE SAY</h5>
+            <h2>CLIENTS WORDS</h2>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+                <div class="solid-col">
+                  <img src="imges//avtar-14.jpg.webp" alt="">
+                <p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
+                <h5>lindsay swanson</h5>
+                <h6>creative defucalt</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="solid-col">
+                  <img src="imges//avtar-13.jpg.webp" alt="">
+                <p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
+                <h5>lindsay swanson</h5>
+                <h6>creative defucalt</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="solid-col">
+                  <img src="imges//avtar-15.jpg.webp" alt="">
+                <p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
+                <h5 >lindsay swanson</h5>
+                <h6>creative defucalt</h6>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container slid">
+              <h5 >PUBLISH WHAT YOU THINK</h5>
+              <h2>LATEST BLOGS</h2>
+              <hr>
+              <div class="row">
+                <div class="col-4">
+                  <div class="solid-col">
+                    <img src="imges//avtar-13.jpg.webp" alt="">
+                  <p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
+                  <h5>lindsay swanson</h5>
+                  <h6>creative defucalt</h6>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="solid-col">
+                    <img src="imges//avtar-15.jpg.webp" alt="">
+                  <p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
+                  <h5>lindsay swanson</h5>
+                  <h6>creative defucalt</h6>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="solid-col">
+                    <img src="imges//avtar-16.jpg.webp" alt="">
+                  <p>Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
+                 <div> <h5 >lindsay swanson</h5>
+                  <h6>creative defucalt</h6></div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+          
+        </div>
+        
+      </div>
+
+    </section>
+    <section class="last container">
+      <h5 >PUBLISH WHAT YOU THINK</h5>
+              <h2>LATEST BLOGS</h2>
+              <hr class="hrr">
+              <div class="row">
+                <div class="col-3  .ltr-effect">
+                 <div class="last-img">
+                  <img src="imges/latest-blog5.jpg.webp" alt="">
+                 </div>
+             
+                  <span class="vline" >25 APRIL 2017</span> <span class=" lline">by jan banjman</span>
+                
+                  <p class="text-capitalize  texx">i like the body.i like to design everything to do with the body.</p>
+                  <hr>
+                  <p class="pr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
+                </div>
+                <div class="col-3">
+                  <div class="last-img">
+                   <img src="imges/latest-blog6.jpg.webp" alt="">
+                  </div>
+              
+                   <span class="vline" >25 APRIL 2017</span> <span class=" lline">by jan banjman</span>
+                 
+                   <p class="text-capitalize  texx">i like the body.i like to design everything to do with the body.</p>
+                   <hr>
+                   <p class="pr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
+                 </div>
+                 <div class="col-3">
+                  <div class="last-img">
+                   <img src="imges/latest-blog7.jpg.webp" alt="">
+                  </div>
+              
+                   <span class="vline" >25 APRIL 2017</span> <span class=" lline">by jan banjman</span>
+                 
+                   <p class="text-capitalize  texx">i like the body.i like to design everything to do with the body.</p>
+                   <hr>
+                   <p class="pr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
+                 </div>
+                 <div class="col-3">
+                  <div class="last-img">
+                   <img src="imges/latest-blog8.jpg.webp" alt="">
+                  </div>
+              
+                   <span class="vline" >25 APRIL 2017</span> <span class=" lline">by jan banjman</span>
+                 
+                   <p class="text-capitalize  texx">i like the body.i like to design everything to do with the body.</p>
+                   <hr>
+                   <p class="pr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
+                 </div>
+                
+              </div>
+    </section>
+    <section class=" endd ">
+      <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p>London based highly creative studio</p>
+        </div>
+        <div class="col-4">
+          <img src="imges/logo-white.png.webp"alt="">
+        </div>
+        <div class="col-4">
+          
+          <nav  class="social-nav">
+            <span>On social networks</span>
+            <a href="#" target="_blank" title="fasbook"><i class="fa-brands fa-facebook-f"></i></a>  <!--target معناها رح يفتح اللينك في صفحة جديدة-->
+            <a href="#" target="_blank" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" title="google+"><i class="fa-brands fa-google-plus-g"></i></a> <!--title توضيح  اللينك مش مهم كتير -->
+        </nav>
+        </div>
+      </div>
+</div>
+    </section>
+    <section class="finish ">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <h5>ABOUT AGENCY</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the and typesetting industry.</p>
+
+          </div>
+          <div class="col-3">
+            <h5>LATEST BLOG POST</h5>
+            <div class="fin d-flex">
+              <div class="imag-fini">
+               <img src="imges/latest-blog4-300x173.jpg.webp" alt="">
+              </div>
+            
+              <div class="par-finish">
+              <a href="#">Get in over your head…</a>
+              <span class="text-light">by</span><a href="#">Jay Benjamin</a>
+              </div>
+              </div>
+              <hr>
+              <div class="fin d-flex">
+                <div class="imag-fini">
+                 <img src="imges/latest-blog3-300x173.jpg.webp" alt="">
+                </div>
+                <div class="par-finish">
+                <a href="#">
+                  Recognizing the need is the…</a>
+                <span class="text-light">by</span><a href="#">Jay Benjamin</a>
+                </div>
+                </div>
+                <hr>
+                <div class="fin d-flex">
+                  <div class="imag-fini">
+                   <img src="imges/latest-blog2-300x173.jpg.webp" alt="">
+                  </div>
+                  <div class="par-finish">
+                  <a href="#">Styles come and go. design…</a>
+                  <span class="text-light">by</span><a href="#">Jay Benjamin</a>
+                  </div>
+               
+             </div>
+           
+          </div>
+          <div class="col-3">
+            <h5>SUBSCRIBE NEWSLETTER</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <div class="mb-3  inp">
+              <input type="email" class="inputt" id="exampleFormControlInput1" placeholder="Enter your email...">
+              <i class="fa-solid fa-caret-right "></i>
+              
+            </div>
+          
+          </div>
+          <div class="col-3">
+            <h5>FOLLOW US INSTAGRAM</h5>
+            <div class="d-flex immg">
+              <img src="imges/238664214_234118888593190_5951674081638019704_n.jpg" alt="">
+              <img src="imges/238210052_4188377034588016_8884491156451770142_n.jpg" alt="">
+              <img src="imges/238521072_649254419800812_3892372618274440747_n.jpg" alt="">
+              
+            </div>
+            <div class="d-flex immg">
+              <img src="imges/238817494_1919163118222884_5100979535562840833_n.jpg" alt="">
+              <img src="imges/239197255_560778658392206_7194270205704366857_n.jpg" alt="">
+              <img src="imges/gg.jpg" alt="">
+              
+            </div>
+          </div>
+          <hr class="hhh">
+          <div class="d-flex">
+            <p class="ppd">POFO - Portfolio Concept Theme</p>
+          <p class="pd">© 2022 POFO is Proudly Powered by ThemeZaa</p>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+      <script src="js/bootstrap.bundle.min.js"></script>  <!--علشان نضمن مكتبة جي اس ودايما يكون في النهاية--> 
+</body>
+</html>
